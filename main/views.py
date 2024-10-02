@@ -16,7 +16,6 @@ from django.utils.html import strip_tags
 
 @login_required(login_url='/login')
 def show_main(request):
-
     context = {
         'npm' : '2306259780',
         'name': request.user.username,
